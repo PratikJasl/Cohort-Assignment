@@ -24,7 +24,7 @@ const CourseSchema = new mongoose.Schema({
     price: Number,
     image: String,
 });
-
+ 
 const Admin = mongoose.model('Admin', AdminSchema);
 const User = mongoose.model('User', UserSchema);
 const Course = mongoose.model('Course', CourseSchema);
